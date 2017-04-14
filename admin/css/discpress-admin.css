@@ -1,0 +1,35 @@
+/**
+* All of the CSS for your admin-specific functionality should be
+* included in this file.
+*/
+
+.discpress-clearfix:before,
+.discpress-clearfix:after {
+    content: " ";
+    display: table;
+}
+.discpress-clearfix:after {
+    clear: both;
+}
+
+.discpress-input[type="text"] {
+	width: 300px;
+}
+
+.discpress-progress {
+	display: none;
+	width: 100%;
+}
+
+.discpress-block {
+	margin-top: 30px;
+}
+
+.discpress-madeby {
+	float: left;
+}
+
+.discpress-donate-form {
+	float: right;
+	text-align: center;
+}
